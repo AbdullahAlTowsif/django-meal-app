@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    return render(request, '/index.html', {"meals": [
+    return render(request, './index.html', {"meals": [
         {
             "strMeal": "BeaverTails",
             "strMealThumb": "https://www.themealdb.com/images/media/meals/ryppsv1511815505.jpg",
